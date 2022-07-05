@@ -1,0 +1,490 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=IBM+Plex+Serif:wght@500&family=Kdam+Thmor+Pro&display=swap');
+
+/*font-family: 'Bree Serif', serif;
+font-family: 'Caveat', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Kdam Thmor Pro', sans-serif;*/
+.navbar img {
+
+    height: 134px;
+    margin-top: 126px;
+    padding: 46px;
+    border-radius: 78px;
+}
+
+
+@media(max-width: 1450px) {
+
+    #service {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 12px 34px;
+
+    }
+
+    #service .box {
+
+        margin: 10vh;
+    }
+
+    #jeans.box {
+
+        margin: 10vh;
+    }
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 13px;
+    top: 0px;
+    position: sticky;
+
+}
+
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul li {
+    margin-top: 134px;
+    padding: 34px;
+    font-size: 1.8rem;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+    padding: 3px 22px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+
+.navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1060%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+
+    height: 60%;
+}
+
+.toggle-button .bar {
+    height: 11px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px -6px;
+}
+
+.brand-title {
+    display: none;
+}
+
+@media(max-width:1060px) {
+    .toggle-button {
+        display: flex;
+    }
+.container{
+    margin: -2px -54px;
+}
+    .navbar {
+        width: 100%;
+        height: 19px;
+    }
+
+    .prime {
+        font-size: 3vw;
+        margin-top: 19rem;
+    }
+
+    .navbar img {
+        display: none;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+
+
+
+    }
+
+    .brand-title {
+        display: flex;
+    }
+
+    .navbar ul {
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navbar ul li {
+        margin-top: 9px;
+        padding: 0px;
+        font-size: 1rem;
+
+    }
+
+    .navbar li a {
+        padding: 1px 6px;
+
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    
+}
+
+
+.container {
+    display: flex;
+
+    margin-top: 128px;
+    padding: 0vw 2vw;
+}
+
+#bt {
+    color: white;
+   
+    margin: 0px;
+    width: 6rem;
+    border: black;
+    padding: 9px;
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: white;
+    padding: 0px 23px;
+}
+#bt a {
+    text-decoration: none;
+    color: white;
+}
+#bt:hover{
+    background-color: blue;
+    
+}
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url('dev3.png') no-repeat center center/cover;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree serif', serif;
+    font-size: 7vw;
+    margin-top: 12rem;
+    flex-wrap: wrap;
+}
+
+#home p {
+    color: black;
+    font-size: 3vw;
+
+    font-family: 'Bree Serif', serif;
+
+
+}
+
+#service {
+    margin: 0px 27px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+.prime {
+    font-size: 3.3rem;
+    margin-top: 18rem;
+    /* align-items: center; */
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#service .box {
+
+    padding: 30px;
+    border-radius: 51px;
+    margin: 40px 5px;
+    background-color: cadetblue;
+    box-shadow: 8px 20px #1f3c3d;
+}
+#service .box:hover{
+    background-color: rgb(37, 88, 90); 
+}
+
+#service .box4 {
+
+    padding: 30px;
+    border-radius: 51px;
+    margin: 20px 20px;
+    background-color: cadetblue;
+    box-shadow: 8px 20px #1f3c3d;
+}
+#service .box4:hover{
+    background-color: rgb(37, 88, 90); 
+}
+#service .box3:hover{
+    background-color: rgb(37, 88, 90); 
+}
+#service .box2:hover{
+    background-color: rgb(37, 88, 90); 
+}
+#service .box3 {
+
+    padding: 30px;
+    border-radius: 51px;
+    margin: 0px 20px;
+}
+
+.price {
+    font-size: 2rem;
+    margin-left: 69px;
+}
+
+#service .box2 {
+    padding: 22px 66px;
+    border-radius: 51px;
+    margin: 0px 20px;
+    background-color: cadetblue;
+    box-shadow: 8px 20px #1f3c3d;
+}
+
+.box3 h3 {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+}
+
+div#shirt-box {
+    border: 2px solid black;
+    margin: 5px;
+    margin: 100px 15px;
+}
+
+/*for navbar 2*/
+.navbar img {
+
+    height: 134px;
+    margin-top: 126px;
+    padding: 46px;
+    border-radius: 78px;
+}
+
+ 
+
+#service img {
+    width: 283px;
+    display: block;
+}
+#service img :hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+    
+}
+
+#service .box2 img {
+    width: 170px;
+    display: block;
+}
+
+#service h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+}
+
+#jeans {
+    margin: 74px 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#jeans .box {
+
+    padding: 22px;
+    border-radius: 51px;
+    margin: 0px 20px;
+    background-color: cadetblue;
+    box-shadow: 8px 20px #1f3c3d;
+}
+
+#jeans img {
+    width: 283px;
+    display: block;
+}
+
+#jeans h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+}
+
+.centre {
+    text-align: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2vw 3vw;
+    justify-content: center;
+    font-size: 2vw;
+    display: flex;
+
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.contact ul {
+    display: flex;
+}
+
+#con h1 {
+    font-size: 3rem;
+    padding: 2rem 1rem;
+}
+
+
+
+#sunny ul li {
+    list-style: none;
+    padding: 1vw 6vw;
+    font-size: 1vw;
+    text-decoration-color: black;
+}
+
+#sunny {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;}
+
+
+    
+    #sunny img {
+        width: 4vw;}
+/* contact page */
+.con {
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    margin-top: 180px;
+    font-family: 'Bree Serif', serif;
+}
+.us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    flex-direction: column;
+}
+
+
+.us input {
+    margin: 2vw;
+    width: 30vw;
+    padding: 2vh;
+    border-radius: 1rem;
+    font-size: 2vw;
+    display: flex;
+}
+.us button {
+    padding: 1vh 3vh;
+    border-radius: 2vh;
+    background: blue;
+    font-size: 2vw;
+    margin: 1vw 13vw;
+}
+ 
